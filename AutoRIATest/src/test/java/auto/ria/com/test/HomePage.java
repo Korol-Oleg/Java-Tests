@@ -7,23 +7,23 @@ import org.openqa.selenium.support.FindBy;
 public class HomePage {
 
 	@FindBy(id = "marks")
-	private WebElement marksAuto;
+	public WebElement marksAuto;
 	@FindBy(id = "models")
-	private WebElement modelAuto;
+	public WebElement modelAuto;
 	@FindBy(id = "regionCenters")
-	private WebElement regionCentersAuto;
+	public WebElement regionCentersAuto;
 	@FindBy(id = "year")
-	private WebElement yearAuto;
+	public WebElement yearAuto;
 	@FindBy(id = "yearTo")
-	private WebElement yearToAuto;
+	public WebElement yearToAuto;
 	@FindBy(id = "priceFrom")
-	private WebElement priceFromAuto;
+	public WebElement priceFromAuto;
 	@FindBy(id = "priceTo")
-	private WebElement priceToAuto;
+	public WebElement priceToAuto;
 	@FindBy(xpath = ("//span[@class='checkrows']/label"))
-	private WebElement checkPhoto;
+	public WebElement checkPhoto;
 	@FindBy(xpath = ("//button[@type='submit']"))
-	private WebElement submitButton;
+	public WebElement submitButton;
 	
 	
 	public void selectMark(String mark)

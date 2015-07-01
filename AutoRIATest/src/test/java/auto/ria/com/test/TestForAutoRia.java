@@ -12,6 +12,7 @@ public class TestForAutoRia extends BasePage {
 	public void TestStep1() 
 	{
 		HomePage home = PageFactory.initElements(driver, HomePage.class);
+		
 		home.selectMark("BMW");
 		home.selectModel("525");
 		home.selectRegion("ส่ๅโ");
@@ -19,8 +20,8 @@ public class TestForAutoRia extends BasePage {
 		home.inputYearTo("2010");
 		home.inputPriceFrom("1000");
 		home.inputPriceTo("100000");
-		home.chkPhoto();
-		home.clickSubmit();
+		home.checkPhoto.click();
+		home.submitButton.click();
 	}
 
 	@Test(priority=2)
