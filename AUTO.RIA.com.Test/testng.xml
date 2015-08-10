@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Функциональные тесты">
+
+    <test name="Расширенный поиска: доп. характеристики">
+		<classes>
+			<class name="ria.com.tests.AdvancedSearchTest"></class>
+		</classes>
+	</test>
+	<test name="Galen">
+		<classes>
+			<class name="ria.com.tests.GalenMainTest"></class>
+		</classes>
+	</test>
+</suite> 

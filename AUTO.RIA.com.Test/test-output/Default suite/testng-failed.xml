@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="ria.com.tests.AdvancedSearchTest">
+        <methods>
+          <include name="stopName"/>
+          <include name="BrowserQuit"/>
+          <include name="startName"/>
+          <include name="initialize"/>
+          <include name="getPage"/>
+          <include name="setUp"/>
+          <include name="test1"/>
+          <include name="geturl"/>
+        </methods>
+      </class> <!-- ria.com.tests.AdvancedSearchTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

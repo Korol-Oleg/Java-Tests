@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1437811480942" stop="1437811500587" version="1.4.11" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Функциональные тесты : Galen</name>
+    <title>Функциональные тесты : Galen</title>
+    <test-cases>
+        <test-case start="1437811485284" stop="1437811500525" status="passed">
+            <name>MaintPageGalenTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="oleg-PC"/>
+                <label name="thread" value="5668@oleg-PC.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

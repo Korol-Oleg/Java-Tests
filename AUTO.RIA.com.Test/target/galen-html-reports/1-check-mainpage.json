@@ -1,0 +1,320 @@
+{
+  "testId" : "1-check-mainpage",
+  "name" : "Check MainPage",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check layout on desktop device",
+      "status" : "info",
+      "time" : 1437811497588,
+      "includedTags" : [ "desktop" ],
+      "sections" : [ {
+        "name" : "Section 1. Header",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 14
+            },
+            "name" : "visible",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 15
+            },
+            "name" : "width: 769 to 2000px",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 16
+            },
+            "name" : "height: 41px",
+            "highlight" : [ "header" ]
+          } ]
+        }, {
+          "name" : "header-menu",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 19
+            },
+            "name" : "visible",
+            "highlight" : [ "header-menu" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 20
+            },
+            "name" : "width: 740px",
+            "highlight" : [ "header-menu" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 21
+            },
+            "name" : "height: 41px",
+            "highlight" : [ "header-menu" ]
+          } ]
+        }, {
+          "name" : "header-BookmarksLink",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 24
+            },
+            "name" : "visible",
+            "highlight" : [ "header-BookmarksLink" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 25
+            },
+            "name" : "width: 40 to 50px",
+            "highlight" : [ "header-BookmarksLink" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 26
+            },
+            "name" : "height: 41 to 42px",
+            "highlight" : [ "header-BookmarksLink" ]
+          } ]
+        }, {
+          "name" : "header-login",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 29
+            },
+            "name" : "visible",
+            "highlight" : [ "header-login" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 30
+            },
+            "name" : "width: 85 to 95px",
+            "highlight" : [ "header-login" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 31
+            },
+            "name" : "height: 41 to 42px",
+            "highlight" : [ "header-login" ]
+          } ]
+        }, {
+          "name" : "header-nav-item-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 35
+            },
+            "name" : "visible",
+            "highlight" : [ "header-nav-item-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 36
+            },
+            "name" : "width: 76 to 170px",
+            "highlight" : [ "header-nav-item-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 37
+            },
+            "name" : "height: 35 to 45px",
+            "highlight" : [ "header-nav-item-1" ]
+          } ]
+        }, {
+          "name" : "header-nav-item-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 35
+            },
+            "name" : "visible",
+            "highlight" : [ "header-nav-item-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 36
+            },
+            "name" : "width: 76 to 170px",
+            "highlight" : [ "header-nav-item-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 37
+            },
+            "name" : "height: 35 to 45px",
+            "highlight" : [ "header-nav-item-2" ]
+          } ]
+        }, {
+          "name" : "header-nav-item-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 35
+            },
+            "name" : "visible",
+            "highlight" : [ "header-nav-item-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 36
+            },
+            "name" : "width: 76 to 170px",
+            "highlight" : [ "header-nav-item-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 37
+            },
+            "name" : "height: 35 to 45px",
+            "highlight" : [ "header-nav-item-3" ]
+          } ]
+        }, {
+          "name" : "header-nav-item-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 35
+            },
+            "name" : "visible",
+            "highlight" : [ "header-nav-item-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 36
+            },
+            "name" : "width: 76 to 170px",
+            "highlight" : [ "header-nav-item-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 37
+            },
+            "name" : "height: 35 to 45px",
+            "highlight" : [ "header-nav-item-4" ]
+          } ]
+        }, {
+          "name" : "header-nav-item-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 35
+            },
+            "name" : "visible",
+            "highlight" : [ "header-nav-item-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 36
+            },
+            "name" : "width: 76 to 170px",
+            "highlight" : [ "header-nav-item-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 37
+            },
+            "name" : "height: 35 to 45px",
+            "highlight" : [ "header-nav-item-5" ]
+          } ]
+        }, {
+          "name" : "header-nav-item-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 35
+            },
+            "name" : "visible",
+            "highlight" : [ "header-nav-item-6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 36
+            },
+            "name" : "width: 76 to 170px",
+            "highlight" : [ "header-nav-item-6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "galen/auto_ria_main.spec",
+              "lineNumber" : 37
+            },
+            "name" : "height: 35 to 45px",
+            "highlight" : [ "header-nav-item-6" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "header-nav-item-4" : {
+          "area" : [ 460, 0, 167, 40 ]
+        },
+        "header-nav-item-5" : {
+          "area" : [ 627, 0, 121, 40 ]
+        },
+        "header-nav-item-6" : {
+          "area" : [ 748, 0, 115, 40 ]
+        },
+        "header-nav-item-1" : {
+          "area" : [ 154, 0, 78, 40 ]
+        },
+        "header-nav-item-2" : {
+          "area" : [ 232, 0, 105, 40 ]
+        },
+        "header-nav-item-3" : {
+          "area" : [ 337, 0, 123, 40 ]
+        },
+        "header" : {
+          "area" : [ 0, 0, 1267, 41 ]
+        },
+        "header-BookmarksLink" : {
+          "area" : [ 970, 0, 45, 41 ]
+        },
+        "header-login" : {
+          "area" : [ 1015, 0, 89, 41 ]
+        },
+        "header-menu" : {
+          "area" : [ 164, 0, 740, 41 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

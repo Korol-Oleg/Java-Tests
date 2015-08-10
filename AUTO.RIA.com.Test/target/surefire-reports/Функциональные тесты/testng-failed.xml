@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Функциональные тесты]">
+  <test name="Расширенный поиска: доп. характеристики(failed)">
+    <classes>
+      <class name="ria.com.tests.GalenMainTest">
+        <methods>
+          <include name="BrowserQuit"/>
+          <include name="startName"/>
+          <include name="initialize"/>
+          <include name="stopName"/>
+          <include name="getPage"/>
+          <include name="setUp"/>
+          <include name="geturl"/>
+        </methods>
+      </class> <!-- ria.com.tests.GalenMainTest -->
+      <class name="ria.com.tests.AdvancedSearchTest">
+        <methods>
+          <include name="stopName"/>
+          <include name="startName"/>
+          <include name="initialize"/>
+          <include name="getPage"/>
+          <include name="setUp"/>
+          <include name="test1"/>
+          <include name="geturl"/>
+        </methods>
+      </class> <!-- ria.com.tests.AdvancedSearchTest -->
+    </classes>
+  </test> <!-- Расширенный поиска: доп. характеристики(failed) -->
+</suite> <!-- Failed suite [Функциональные тесты] -->

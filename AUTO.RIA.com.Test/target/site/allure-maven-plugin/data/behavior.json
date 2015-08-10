@@ -1,0 +1,71 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "e255f219caf88068",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "1e93b8670f331528",
+        "name" : "MaintPageGalenTest",
+        "title" : "Maint page galen test",
+        "time" : {
+          "start" : 1437811485284,
+          "stop" : 1437811500525,
+          "duration" : 15241
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  }, {
+    "title" : "Search",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "stories" : [ {
+      "uid" : "787405c8136b5aed",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 1
+      },
+      "testCases" : [ {
+        "uid" : "999d889eb811d35",
+        "name" : "test1",
+        "title" : "Test 1",
+        "time" : {
+          "start" : 1437811434782,
+          "stop" : 1437811480048,
+          "duration" : 45266
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

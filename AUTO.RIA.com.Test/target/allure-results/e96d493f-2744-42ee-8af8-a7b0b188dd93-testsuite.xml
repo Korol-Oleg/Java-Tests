@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1437811420038" stop="1437811480213" version="1.4.11" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Функциональные тесты : Расширенный поиска: доп. характеристики</name>
+    <title>Функциональные тесты : Расширенный поиска: доп. характеристики</title>
+    <test-cases>
+        <test-case start="1437811434782" stop="1437811480048" status="broken">
+            <name>test1</name>
+            <failure>
+                <message>NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'ticket-item paid'][2]//div[@class = 'item ticket-title']/a[@class = 'address']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:16:47'
+System info: host: 'oleg-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-58-generic', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+Command duration or timeout: 10.79 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'oleg-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-58-generic', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=ed66fca3-9437-4291-a75e-013b9a52ab80, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ed66fca3-9437-4291-a75e-013b9a52ab80
+*** Element info: {Using=xpath, value=//div[@class = 'ticket-item paid'][2]//div[@class = 'item ticket-title']/a[@class = 'address']}</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'ticket-item paid'][2]//div[@class = 'item ticket-title']/a[@class = 'address']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:16:47'
+System info: host: 'oleg-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-58-generic', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+Command duration or timeout: 10.79 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'oleg-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-58-generic', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=ed66fca3-9437-4291-a75e-013b9a52ab80, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ed66fca3-9437-4291-a75e-013b9a52ab80
+*** Element info: {Using=xpath, value=//div[@class = 'ticket-item paid'][2]//div[@class = 'item ticket-title']/a[@class = 'address']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at ria.com.page.SearchResultPage.addwertSeccondClick(SearchResultPage.java:336)
+	at ria.com.tests.AdvancedSearchTest.test1(AdvancedSearchTest.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:217)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:92)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'oleg-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-58-generic', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:136)
+	... 37 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'ticket-item paid'][2]//div[@class = 'item ticket-title']/a[@class = 'address']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:16:47'
+System info: host: 'oleg-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-58-generic', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'oleg-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-58-generic', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///tmp/anonymous3449123124253978352webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///tmp/anonymous3449123124253978352webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1437811435089" stop="1437811435482" status="passed">
+                    <name>sedanClick[Седан]</name>
+                    <title>Выбираем кузов: "Седан"</title>
+                </step>
+                <step start="1437811435496" stop="1437811436535" status="passed">
+                    <name>selectMark[Audi, 6]</name>
+                    <title>Выбираем марку: "Audi"</title>
+                </step>
+                <step start="1437811436538" stop="1437811436970" status="passed">
+                    <name>selectModel[A6, 49]</name>
+                    <title>Выбираем модель: "A6"</title>
+                </step>
+                <step start="1437811436972" stop="1437811437992" status="passed">
+                    <name>inputPrice[5000, 19000]</name>
+                    <title>Выбираем цену: от "5000" до "19000"</title>
+                </step>
+                <step start="1437811437994" stop="1437811439102" status="passed">
+                    <name>selectYears[1995, 2014]</name>
+                    <title>Выбираем год: от "1995" до "2014"</title>
+                </step>
+                <step start="1437811439107" stop="1437811439704" status="passed">
+                    <name>selectRegion[Киевская, 10]</name>
+                    <title>Выбираем регион: "Киевская"</title>
+                </step>
+                <step start="1437811439705" stop="1437811440165" status="passed">
+                    <name>selectCity[Киев, 10]</name>
+                    <title>Выбираем город: "Киев"</title>
+                </step>
+                <step start="1437811440167" stop="1437811440345" status="passed">
+                    <name>verifyCarType[Легковые]</name>
+                    <title>Проверка выбора типа машины</title>
+                </step>
+                <step start="1437811440348" stop="1437811440425" status="passed">
+                    <name>verifyCarSubType[Седан]</name>
+                    <title>Проверка выбора кузова машины</title>
+                </step>
+                <step start="1437811440428" stop="1437811440491" status="passed">
+                    <name>verifyMark[Audi]</name>
+                    <title>Проверка выбора марки машины</title>
+                </step>
+                <step start="1437811440496" stop="1437811440553" status="passed">
+                    <name>verifyModel[A6]</name>
+                    <title>Проверка выбора модели машины</title>
+                </step>
+                <step start="1437811440555" stop="1437811440625" status="passed">
+                    <name>verifyYears[Год от 1995 до 2014]</name>
+                    <title>Проверка выбора годов машины</title>
+                </step>
+                <step start="1437811440627" stop="1437811440683" status="passed">
+                    <name>verifyRegion[Киевская]</name>
+                    <title>Проверка выбора области машины</title>
+                </step>
+                <step start="1437811440687" stop="1437811440761" status="passed">
+                    <name>verifyCity[Киев]</name>
+                    <title>Проверка выбора города</title>
+                </step>
+                <step start="1437811440763" stop="1437811440861" status="passed">
+                    <name>verifyPrice[Цена: от 5000 до 19000]</name>
+                    <title>Проверка выбора цены машины</title>
+                </step>
+                <step start="1437811440863" stop="1437811452835" status="passed">
+                    <name>searchClick</name>
+                    <title>Нажимаем поиск</title>
+                </step>
+                <step start="1437811452839" stop="1437811453301" status="passed">
+                    <name>verifyBreadCrumbs[Базар авто
+Поиск авто
+Легковые
+Седан
+Audi
+A6]</name>
+                    <title>Проверка хлебных крошек: "Базар авто
+Поиск авто
+Легковые
+Седан
+Audi
+A6"</title>
+                </step>
+                <step start="1437811453303" stop="1437811453409" status="passed">
+                    <name>verifyRedSearchFormType[Легковые]</name>
+                    <title>Проверка в красной форме параметра тип: "Легковые"</title>
+                </step>
+                <step start="1437811453411" stop="1437811453502" status="passed">
+                    <name>verifyRedSearchFormSubType[Седан]</name>
+                    <title>Проверка в красной форме параметра кузов: "Седан"</title>
+                </step>
+                <step start="1437811453504" stop="1437811453601" status="passed">
+                    <name>verifyRedSearchFormMark[Audi]</name>
+                    <title>Проверка в красной форме параметра марка: "Audi"</title>
+                </step>
+                <step start="1437811453603" stop="1437811453686" status="passed">
+                    <name>verifyRedSearchFormModel[A6]</name>
+                    <title>Проверка в красной форме параметра модель: "A6"</title>
+                </step>
+                <step start="1437811453688" stop="1437811453779" status="passed">
+                    <name>verifyRedSearchFormYears[Год от 1995 до 2014]</name>
+                    <title>Проверка в красной форме параметра год: "Год от 1995 до 2014"</title>
+                </step>
+                <step start="1437811453781" stop="1437811453889" status="passed">
+                    <name>verifyRedSearchFormPrice[Цена от 5000 до 19000 $]</name>
+                    <title>Проверка в красной форме параметра цены: "Цена от 5000 до 19000 $"</title>
+                </step>
+                <step start="1437811453891" stop="1437811454490" status="passed">
+                    <name>verifyRedSearchFormState[Киевская]</name>
+                    <title>Проверка в красной форме параметра регион: "Киевская"</title>
+                </step>
+                <step start="1437811454492" stop="1437811454583" status="passed">
+                    <name>verifyRedSearchFormCity[Киев]</name>
+                    <title>Проверка в красной форме параметра город: "Киев"</title>
+                </step>
+                <step start="1437811454586" stop="1437811454622" status="passed">
+                    <name>verifyLeftSearchFormType[Легковые, 1]</name>
+                    <title>Проверка в боковой форме параметра:  "Легковые"</title>
+                </step>
+                <step start="1437811454624" stop="1437811454738" status="passed">
+                    <name>verifyLeftSearchFormSubType[Седан]</name>
+                    <title>Проверка в боковой форме параметра:  "Седан"</title>
+                </step>
+                <step start="1437811454740" stop="1437811454770" status="passed">
+                    <name>verifyLeftSearchFormMark[Audi, 6]</name>
+                    <title>Проверка в боковой форме параметра:  "Audi"</title>
+                </step>
+                <step start="1437811454814" stop="1437811454877" status="passed">
+                    <name>verifyLeftSearchFormModel[A6, 49]</name>
+                    <title>Проверка в боковой форме параметра:  "A6"</title>
+                </step>
+                <step start="1437811454878" stop="1437811454906" status="passed">
+                    <name>verifyLeftSearchFormYearFrom[1995]</name>
+                    <title>Проверка в боковой форме параметра:  "1995"</title>
+                </step>
+                <step start="1437811454907" stop="1437811454961" status="passed">
+                    <name>verifyLeftSearchFormYearTo[2014]</name>
+                    <title>Проверка в боковой форме параметра:  "2014"</title>
+                </step>
+                <step start="1437811454963" stop="1437811455058" status="passed">
+                    <name>verifyLeftSearchFormPriceFrom[5000]</name>
+                    <title>Проверка в боковой форме параметра:  "5000"</title>
+                </step>
+                <step start="1437811455060" stop="1437811455088" status="passed">
+                    <name>verifyLeftSearchFormPriceTo[19000]</name>
+                    <title>Проверка в боковой форме параметра:  "19000"</title>
+                </step>
+                <step start="1437811455089" stop="1437811455129" status="passed">
+                    <name>verifyLeftSearchFormState[Киевская, 10]</name>
+                    <title>Проверка в боковой форме параметра:  "Киевская"</title>
+                </step>
+                <step start="1437811455130" stop="1437811455175" status="passed">
+                    <name>verifyLeftSearchFormCity[Киев, 10]</name>
+                    <title>Проверка в боковой форме параметра:  "Киев"</title>
+                </step>
+                <step start="1437811455177" stop="1437811455404" status="passed">
+                    <name>verifySearchResultMark[Audi]</name>
+                    <title>Проверка в поисковой выдаче параметра:  "Audi"</title>
+                </step>
+                <step start="1437811455406" stop="1437811455656" status="passed">
+                    <name>verifySearchResultModel[A6]</name>
+                    <title>Проверка в поисковой выдаче параметра:  "A6"</title>
+                </step>
+                <step start="1437811455676" stop="1437811456748" status="passed">
+                    <name>verifySearchResultYear[1995, 2014]</name>
+                    <title>Проверка в поисковой выдаче параметра:  "1,995" "2,014"</title>
+                </step>
+                <step start="1437811456749" stop="1437811456953" status="passed">
+                    <name>verifySearchResultState[Поиск объявлений по региону Киев]</name>
+                    <title>Проверка в поисковой выдаче параметра:  "Поиск объявлений по региону Киев"</title>
+                </step>
+                <step start="1437811456955" stop="1437811457286" status="passed">
+                    <name>verifySearchResultCity[Киев]</name>
+                    <title>Проверка в поисковой выдаче параметра:  "Киев"</title>
+                </step>
+                <step start="1437811457287" stop="1437811457612" status="passed">
+                    <name>verifySearchResultPrice[5000, 19000]</name>
+                    <title>Проверка в поисковой выдаче параметра:  "5,000" "19,000"</title>
+                </step>
+                <step start="1437811457613" stop="1437811458472" status="passed">
+                    <name>nextPageClick</name>
+                    <title>Переход на страницу 2</title>
+                </step>
+                <step start="1437811458476" stop="1437811460923" status="passed">
+                    <name>verifyBreadCrumbs[Базар авто
+Поиск авто
+Легковые
+Седан
+Audi
+A6]</name>
+                    <title>Проверка хлебных крошек: "Базар авто
+Поиск авто
+Легковые
+Седан
+Audi
+A6"</title>
+                </step>
+                <step start="1437811460924" stop="1437811461008" status="passed">
+                    <name>verifyRedSearchFormType[Легковые]</name>
+                    <title>Проверка в красной форме параметра тип: "Легковые"</title>
+                </step>
+                <step start="1437811461010" stop="1437811461170" status="passed">
+                    <name>verifyRedSearchFormSubType[Седан]</name>
+                    <title>Проверка в красной форме параметра кузов: "Седан"</title>
+                </step>
+                <step start="1437811461171" stop="1437811461326" status="passed">
+                    <name>verifyRedSearchFormMark[Audi]</name>
+                    <title>Проверка в красной форме параметра марка: "Audi"</title>
+                </step>
+                <step start="1437811461328" stop="1437811461445" status="passed">
+                    <name>verifyRedSearchFormModel[A6]</name>
+                    <title>Проверка в красной форме параметра модель: "A6"</title>
+                </step>
+                <step start="1437811461446" stop="1437811461810" status="passed">
+                    <name>verifyRedSearchFormYears[Год от 1995 до 2014]</name>
+                    <title>Проверка в красной форме параметра год: "Год от 1995 до 2014"</title>
+                </step>
+                <step start="1437811461819" stop="1437811461973" status="passed">
+                    <name>verifyRedSearchFormPrice[Цена от 5000 до 19000 $]</name>
+                    <title>Проверка в красной форме параметра цены: "Цена от 5000 до 19000 $"</title>
+                </step>
+                <step start="1437811461975" stop="1437811462055" status="passed">
+                    <name>verifyRedSearchFormState[Киевская]</name>
+                    <title>Проверка в красной форме параметра регион: "Киевская"</title>
+                </step>
+                <step start="1437811462056" stop="1437811462123" status="passed">
+                    <name>verifyRedSearchFormCity[Киев]</name>
+                    <title>Проверка в красной форме параметра город: "Киев"</title>
+                </step>
+                <step start="1437811462125" stop="1437811462157" status="passed">
+                    <name>verifyLeftSearchFormType[Легковые, 1]</name>
+                    <title>Проверка в боковой форме параметра:  "Легковые"</title>
+                </step>
+                <step start="1437811462159" stop="1437811462241" status="passed">
+                    <name>verifyLeftSearchFormSubType[Седан]</name>
+                    <title>Проверка в боковой форме параметра:  "Седан"</title>
+                </step>
+                <step start="1437811462247" stop="1437811462281" status="passed">
+                    <name>verifyLeftSearchFormMark[Audi, 6]</name>
+                    <title>Проверка в боковой форме параметра:  "Audi"</title>
+                </step>
+                <step start="1437811462283" stop="1437811462318" status="passed">
+                    <name>verifyLeftSearchFormModel[A6, 49]</name>
+                    <title>Проверка в боковой форме параметра:  "A6"</title>
+                </step>
+                <step start="1437811462320" stop="1437811462353" status="passed">
+                    <name>verifyLeftSearchFormYearFrom[1995]</name>
+                    <title>Проверка в боковой форме параметра:  "1995"</title>
+                </step>
+                <step start="1437811462354" stop="1437811462391" status="passed">
+                    <name>verifyLeftSearchFormYearTo[2014]</name>
+                    <title>Проверка в боковой форме параметра:  "2014"</title>
+                </step>
+                <step start="1437811462392" stop="1437811462430" status="passed">
+                    <name>verifyLeftSearchFormPriceFrom[5000]</name>
+                    <title>Проверка в боковой форме параметра:  "5000"</title>
+                </step>
+                <step start="1437811462432" stop="1437811462474" status="passed">
+                    <name>verifyLeftSearchFormPriceTo[19000]</name>
+                    <title>Проверка в боковой форме параметра:  "19000"</title>
+                </step>
+                <step start="1437811462476" stop="1437811462508" status="passed">
+                    <name>verifyLeftSearchFormState[Киевская, 10]</name>
+                    <title>Проверка в боковой форме параметра:  "Киевская"</title>
+                </step>
+                <step start="1437811462509" stop="1437811462543" status="passed">
+                    <name>verifyLeftSearchFormCity[Киев, 10]</name>
+                    <title>Проверка в боковой форме параметра:  "Киев"</title>
+                </step>
+                <step start="1437811462544" stop="1437811462800" status="passed">
+                    <name>verifySearchResultMark[Audi]</name>
+                    <title>Проверка в поисковой выдаче параметра:  "Audi"</title>
+                </step>
+                <step start="1437811462801" stop="1437811463045" status="passed">
+                    <name>verifySearchResultModel[A6]</name>
+                    <title>Проверка в поисковой выдаче параметра:  "A6"</title>
+                </step>
+                <step start="1437811463048" stop="1437811464273" status="passed">
+                    <name>verifySearchResultYear[1995, 2014]</name>
+                    <title>Проверка в поисковой выдаче параметра:  "1,995" "2,014"</title>
+                </step>
+                <step start="1437811464274" stop="1437811464472" status="passed">
+                    <name>verifySearchResultState[Поиск объявлений по региону Киев]</name>
+                    <title>Проверка в поисковой выдаче параметра:  "Поиск объявлений по региону Киев"</title>
+                </step>
+                <step start="1437811464473" stop="1437811464916" status="passed">
+                    <name>verifySearchResultCity[Киев]</name>
+                    <title>Проверка в поисковой выдаче параметра:  "Киев"</title>
+                </step>
+                <step start="1437811464917" stop="1437811465201" status="passed">
+                    <name>verifySearchResultPrice[5000, 19000]</name>
+                    <title>Проверка в поисковой выдаче параметра:  "5,000" "19,000"</title>
+                </step>
+                <step start="1437811465203" stop="1437811476055" status="broken">
+                    <name>addwertSeccondClick</name>
+                    <title>Переход на второе объявление</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="makeScreenshot" source="4dae7821-7120-4201-a083-696985d0be1b-attachment.png" type="image/png" size="1414348"/>
+            </attachments>
+            <labels>
+                <label name="feature" value="Search"/>
+                <label name="host" value="oleg-PC"/>
+                <label name="thread" value="5668@oleg-PC.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

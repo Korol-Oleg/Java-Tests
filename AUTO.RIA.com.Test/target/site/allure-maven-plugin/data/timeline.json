@@ -1,0 +1,31 @@
+{
+  "hosts" : [ {
+    "title" : "oleg-PC",
+    "threads" : [ {
+      "title" : "5668@oleg-PC.main(1)",
+      "testCases" : [ {
+        "uid" : "1e93b8670f331528",
+        "name" : "MaintPageGalenTest",
+        "title" : "Maint page galen test",
+        "time" : {
+          "start" : 1437811485284,
+          "stop" : 1437811500525,
+          "duration" : 15241
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "999d889eb811d35",
+        "name" : "test1",
+        "title" : "Test 1",
+        "time" : {
+          "start" : 1437811434782,
+          "stop" : 1437811480048,
+          "duration" : 45266
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

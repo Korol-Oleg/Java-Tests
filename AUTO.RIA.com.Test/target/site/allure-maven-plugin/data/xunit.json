@@ -1,0 +1,68 @@
+{
+  "time" : {
+    "start" : 1437811434782,
+    "stop" : 1437811500525,
+    "duration" : 65743
+  },
+  "testSuites" : [ {
+    "uid" : "2a12fe90105f09e5",
+    "name" : "Функциональные тесты : Galen",
+    "title" : "Функциональные тесты : Galen",
+    "time" : {
+      "start" : 1437811485284,
+      "stop" : 1437811500525,
+      "duration" : 15241
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "1e93b8670f331528",
+      "name" : "MaintPageGalenTest",
+      "title" : "Maint page galen test",
+      "time" : {
+        "start" : 1437811485284,
+        "stop" : 1437811500525,
+        "duration" : 15241
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "fd9be0bf6f0ba640",
+    "name" : "Функциональные тесты : Расширенный поиска: доп. характеристики",
+    "title" : "Функциональные тесты : Расширенный поиска: доп. характеристики",
+    "time" : {
+      "start" : 1437811434782,
+      "stop" : 1437811480048,
+      "duration" : 45266
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "999d889eb811d35",
+      "name" : "test1",
+      "title" : "Test 1",
+      "time" : {
+        "start" : 1437811434782,
+        "stop" : 1437811480048,
+        "duration" : 45266
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    } ]
+  } ]
+}

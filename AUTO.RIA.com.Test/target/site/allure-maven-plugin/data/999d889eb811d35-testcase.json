@@ -1,0 +1,1079 @@
+{
+  "uid" : "999d889eb811d35",
+  "name" : "test1",
+  "title" : "Test 1",
+  "time" : {
+    "start" : 1437811434782,
+    "stop" : 1437811480048,
+    "duration" : 45266
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 68
+  },
+  "failure" : {
+    "message" : "NoSuchElementException: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class = 'ticket-item paid'][2]//div[@class = 'item ticket-title']/a[@class = 'address']\"}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:16:47'\nSystem info: host: 'oleg-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-58-generic', java.version: '1.8.0_45'\nDriver info: driver.version: unknown\nCommand duration or timeout: 10.79 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'\nSystem info: host: 'oleg-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-58-generic', java.version: '1.8.0_45'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=ed66fca3-9437-4291-a75e-013b9a52ab80, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ed66fca3-9437-4291-a75e-013b9a52ab80\n*** Element info: {Using=xpath, value=//div[@class = 'ticket-item paid'][2]//div[@class = 'item ticket-title']/a[@class = 'address']}",
+    "stackTrace" : "org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class = 'ticket-item paid'][2]//div[@class = 'item ticket-title']/a[@class = 'address']\"}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:16:47'\nSystem info: host: 'oleg-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-58-generic', java.version: '1.8.0_45'\nDriver info: driver.version: unknown\nCommand duration or timeout: 10.79 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'\nSystem info: host: 'oleg-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-58-generic', java.version: '1.8.0_45'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=ed66fca3-9437-4291-a75e-013b9a52ab80, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ed66fca3-9437-4291-a75e-013b9a52ab80\n*** Element info: {Using=xpath, value=//div[@class = 'ticket-item paid'][2]//div[@class = 'item ticket-title']/a[@class = 'address']}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:358)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy12.click(Unknown Source)\n\tat ria.com.page.SearchResultPage.addwertSeccondClick(SearchResultPage.java:336)\n\tat ria.com.tests.AdvancedSearchTest.test1(AdvancedSearchTest.java:104)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:767)\n\tat org.testng.TestRunner.run(TestRunner.java:617)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1123)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:217)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:92)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)\nCaused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken\nBuild info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'\nSystem info: host: 'oleg-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-58-generic', java.version: '1.8.0_45'\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:136)\n\t... 37 more\nCaused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class = 'ticket-item paid'][2]//div[@class = 'item ticket-title']/a[@class = 'address']\"}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:16:47'\nSystem info: host: 'oleg-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-58-generic', java.version: '1.8.0_45'\nDriver info: driver.version: unknown\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'\nSystem info: host: 'oleg-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-58-generic', java.version: '1.8.0_45'\nDriver info: driver.version: unknown\n\tat <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///tmp/anonymous3449123124253978352webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)\n\tat <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous3449123124253978352webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "fd9be0bf6f0ba640",
+    "name" : "Функциональные тесты : Расширенный поиска: доп. характеристики",
+    "title" : "Функциональные тесты : Расширенный поиска: доп. характеристики"
+  },
+  "steps" : [ {
+    "name" : "sedanClick[Седан]",
+    "title" : "Выбираем кузов: \"Седан\"",
+    "time" : {
+      "start" : 1437811435089,
+      "stop" : 1437811435482,
+      "duration" : 393
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectMark[Audi, 6]",
+    "title" : "Выбираем марку: \"Audi\"",
+    "time" : {
+      "start" : 1437811435496,
+      "stop" : 1437811436535,
+      "duration" : 1039
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectModel[A6, 49]",
+    "title" : "Выбираем модель: \"A6\"",
+    "time" : {
+      "start" : 1437811436538,
+      "stop" : 1437811436970,
+      "duration" : 432
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "inputPrice[5000, 19000]",
+    "title" : "Выбираем цену: от \"5000\" до \"19000\"",
+    "time" : {
+      "start" : 1437811436972,
+      "stop" : 1437811437992,
+      "duration" : 1020
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectYears[1995, 2014]",
+    "title" : "Выбираем год: от \"1995\" до \"2014\"",
+    "time" : {
+      "start" : 1437811437994,
+      "stop" : 1437811439102,
+      "duration" : 1108
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectRegion[Киевская, 10]",
+    "title" : "Выбираем регион: \"Киевская\"",
+    "time" : {
+      "start" : 1437811439107,
+      "stop" : 1437811439704,
+      "duration" : 597
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectCity[Киев, 10]",
+    "title" : "Выбираем город: \"Киев\"",
+    "time" : {
+      "start" : 1437811439705,
+      "stop" : 1437811440165,
+      "duration" : 460
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyCarType[Легковые]",
+    "title" : "Проверка выбора типа машины",
+    "time" : {
+      "start" : 1437811440167,
+      "stop" : 1437811440345,
+      "duration" : 178
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyCarSubType[Седан]",
+    "title" : "Проверка выбора кузова машины",
+    "time" : {
+      "start" : 1437811440348,
+      "stop" : 1437811440425,
+      "duration" : 77
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyMark[Audi]",
+    "title" : "Проверка выбора марки машины",
+    "time" : {
+      "start" : 1437811440428,
+      "stop" : 1437811440491,
+      "duration" : 63
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyModel[A6]",
+    "title" : "Проверка выбора модели машины",
+    "time" : {
+      "start" : 1437811440496,
+      "stop" : 1437811440553,
+      "duration" : 57
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyYears[Год от 1995 до 2014]",
+    "title" : "Проверка выбора годов машины",
+    "time" : {
+      "start" : 1437811440555,
+      "stop" : 1437811440625,
+      "duration" : 70
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyRegion[Киевская]",
+    "title" : "Проверка выбора области машины",
+    "time" : {
+      "start" : 1437811440627,
+      "stop" : 1437811440683,
+      "duration" : 56
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyCity[Киев]",
+    "title" : "Проверка выбора города",
+    "time" : {
+      "start" : 1437811440687,
+      "stop" : 1437811440761,
+      "duration" : 74
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyPrice[Цена: от 5000 до 19000]",
+    "title" : "Проверка выбора цены машины",
+    "time" : {
+      "start" : 1437811440763,
+      "stop" : 1437811440861,
+      "duration" : 98
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "searchClick",
+    "title" : "Нажимаем поиск",
+    "time" : {
+      "start" : 1437811440863,
+      "stop" : 1437811452835,
+      "duration" : 11972
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyBreadCrumbs[Базар авто\nПоиск авто\nЛегковые\nСедан\nAudi\nA6]",
+    "title" : "Проверка хлебных крошек: \"Базар авто\nПоиск авто\nЛегковые\nСедан\nAudi\nA6\"",
+    "time" : {
+      "start" : 1437811452839,
+      "stop" : 1437811453301,
+      "duration" : 462
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyRedSearchFormType[Легковые]",
+    "title" : "Проверка в красной форме параметра тип: \"Легковые\"",
+    "time" : {
+      "start" : 1437811453303,
+      "stop" : 1437811453409,
+      "duration" : 106
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyRedSearchFormSubType[Седан]",
+    "title" : "Проверка в красной форме параметра кузов: \"Седан\"",
+    "time" : {
+      "start" : 1437811453411,
+      "stop" : 1437811453502,
+      "duration" : 91
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyRedSearchFormMark[Audi]",
+    "title" : "Проверка в красной форме параметра марка: \"Audi\"",
+    "time" : {
+      "start" : 1437811453504,
+      "stop" : 1437811453601,
+      "duration" : 97
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyRedSearchFormModel[A6]",
+    "title" : "Проверка в красной форме параметра модель: \"A6\"",
+    "time" : {
+      "start" : 1437811453603,
+      "stop" : 1437811453686,
+      "duration" : 83
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyRedSearchFormYears[Год от 1995 до 2014]",
+    "title" : "Проверка в красной форме параметра год: \"Год от 1995 до 2014\"",
+    "time" : {
+      "start" : 1437811453688,
+      "stop" : 1437811453779,
+      "duration" : 91
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyRedSearchFormPrice[Цена от 5000 до 19000 $]",
+    "title" : "Проверка в красной форме параметра цены: \"Цена от 5000 до 19000 $\"",
+    "time" : {
+      "start" : 1437811453781,
+      "stop" : 1437811453889,
+      "duration" : 108
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyRedSearchFormState[Киевская]",
+    "title" : "Проверка в красной форме параметра регион: \"Киевская\"",
+    "time" : {
+      "start" : 1437811453891,
+      "stop" : 1437811454490,
+      "duration" : 599
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyRedSearchFormCity[Киев]",
+    "title" : "Проверка в красной форме параметра город: \"Киев\"",
+    "time" : {
+      "start" : 1437811454492,
+      "stop" : 1437811454583,
+      "duration" : 91
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormType[Легковые, 1]",
+    "title" : "Проверка в боковой форме параметра:  \"Легковые\"",
+    "time" : {
+      "start" : 1437811454586,
+      "stop" : 1437811454622,
+      "duration" : 36
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormSubType[Седан]",
+    "title" : "Проверка в боковой форме параметра:  \"Седан\"",
+    "time" : {
+      "start" : 1437811454624,
+      "stop" : 1437811454738,
+      "duration" : 114
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormMark[Audi, 6]",
+    "title" : "Проверка в боковой форме параметра:  \"Audi\"",
+    "time" : {
+      "start" : 1437811454740,
+      "stop" : 1437811454770,
+      "duration" : 30
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormModel[A6, 49]",
+    "title" : "Проверка в боковой форме параметра:  \"A6\"",
+    "time" : {
+      "start" : 1437811454814,
+      "stop" : 1437811454877,
+      "duration" : 63
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormYearFrom[1995]",
+    "title" : "Проверка в боковой форме параметра:  \"1995\"",
+    "time" : {
+      "start" : 1437811454878,
+      "stop" : 1437811454906,
+      "duration" : 28
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormYearTo[2014]",
+    "title" : "Проверка в боковой форме параметра:  \"2014\"",
+    "time" : {
+      "start" : 1437811454907,
+      "stop" : 1437811454961,
+      "duration" : 54
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormPriceFrom[5000]",
+    "title" : "Проверка в боковой форме параметра:  \"5000\"",
+    "time" : {
+      "start" : 1437811454963,
+      "stop" : 1437811455058,
+      "duration" : 95
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormPriceTo[19000]",
+    "title" : "Проверка в боковой форме параметра:  \"19000\"",
+    "time" : {
+      "start" : 1437811455060,
+      "stop" : 1437811455088,
+      "duration" : 28
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormState[Киевская, 10]",
+    "title" : "Проверка в боковой форме параметра:  \"Киевская\"",
+    "time" : {
+      "start" : 1437811455089,
+      "stop" : 1437811455129,
+      "duration" : 40
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormCity[Киев, 10]",
+    "title" : "Проверка в боковой форме параметра:  \"Киев\"",
+    "time" : {
+      "start" : 1437811455130,
+      "stop" : 1437811455175,
+      "duration" : 45
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifySearchResultMark[Audi]",
+    "title" : "Проверка в поисковой выдаче параметра:  \"Audi\"",
+    "time" : {
+      "start" : 1437811455177,
+      "stop" : 1437811455404,
+      "duration" : 227
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifySearchResultModel[A6]",
+    "title" : "Проверка в поисковой выдаче параметра:  \"A6\"",
+    "time" : {
+      "start" : 1437811455406,
+      "stop" : 1437811455656,
+      "duration" : 250
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifySearchResultYear[1995, 2014]",
+    "title" : "Проверка в поисковой выдаче параметра:  \"1,995\" \"2,014\"",
+    "time" : {
+      "start" : 1437811455676,
+      "stop" : 1437811456748,
+      "duration" : 1072
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifySearchResultState[Поиск объявлений по региону Киев]",
+    "title" : "Проверка в поисковой выдаче параметра:  \"Поиск объявлений по региону Киев\"",
+    "time" : {
+      "start" : 1437811456749,
+      "stop" : 1437811456953,
+      "duration" : 204
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifySearchResultCity[Киев]",
+    "title" : "Проверка в поисковой выдаче параметра:  \"Киев\"",
+    "time" : {
+      "start" : 1437811456955,
+      "stop" : 1437811457286,
+      "duration" : 331
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifySearchResultPrice[5000, 19000]",
+    "title" : "Проверка в поисковой выдаче параметра:  \"5,000\" \"19,000\"",
+    "time" : {
+      "start" : 1437811457287,
+      "stop" : 1437811457612,
+      "duration" : 325
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "nextPageClick",
+    "title" : "Переход на страницу 2",
+    "time" : {
+      "start" : 1437811457613,
+      "stop" : 1437811458472,
+      "duration" : 859
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyBreadCrumbs[Базар авто\nПоиск авто\nЛегковые\nСедан\nAudi\nA6]",
+    "title" : "Проверка хлебных крошек: \"Базар авто\nПоиск авто\nЛегковые\nСедан\nAudi\nA6\"",
+    "time" : {
+      "start" : 1437811458476,
+      "stop" : 1437811460923,
+      "duration" : 2447
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyRedSearchFormType[Легковые]",
+    "title" : "Проверка в красной форме параметра тип: \"Легковые\"",
+    "time" : {
+      "start" : 1437811460924,
+      "stop" : 1437811461008,
+      "duration" : 84
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyRedSearchFormSubType[Седан]",
+    "title" : "Проверка в красной форме параметра кузов: \"Седан\"",
+    "time" : {
+      "start" : 1437811461010,
+      "stop" : 1437811461170,
+      "duration" : 160
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyRedSearchFormMark[Audi]",
+    "title" : "Проверка в красной форме параметра марка: \"Audi\"",
+    "time" : {
+      "start" : 1437811461171,
+      "stop" : 1437811461326,
+      "duration" : 155
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyRedSearchFormModel[A6]",
+    "title" : "Проверка в красной форме параметра модель: \"A6\"",
+    "time" : {
+      "start" : 1437811461328,
+      "stop" : 1437811461445,
+      "duration" : 117
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyRedSearchFormYears[Год от 1995 до 2014]",
+    "title" : "Проверка в красной форме параметра год: \"Год от 1995 до 2014\"",
+    "time" : {
+      "start" : 1437811461446,
+      "stop" : 1437811461810,
+      "duration" : 364
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyRedSearchFormPrice[Цена от 5000 до 19000 $]",
+    "title" : "Проверка в красной форме параметра цены: \"Цена от 5000 до 19000 $\"",
+    "time" : {
+      "start" : 1437811461819,
+      "stop" : 1437811461973,
+      "duration" : 154
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyRedSearchFormState[Киевская]",
+    "title" : "Проверка в красной форме параметра регион: \"Киевская\"",
+    "time" : {
+      "start" : 1437811461975,
+      "stop" : 1437811462055,
+      "duration" : 80
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyRedSearchFormCity[Киев]",
+    "title" : "Проверка в красной форме параметра город: \"Киев\"",
+    "time" : {
+      "start" : 1437811462056,
+      "stop" : 1437811462123,
+      "duration" : 67
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormType[Легковые, 1]",
+    "title" : "Проверка в боковой форме параметра:  \"Легковые\"",
+    "time" : {
+      "start" : 1437811462125,
+      "stop" : 1437811462157,
+      "duration" : 32
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormSubType[Седан]",
+    "title" : "Проверка в боковой форме параметра:  \"Седан\"",
+    "time" : {
+      "start" : 1437811462159,
+      "stop" : 1437811462241,
+      "duration" : 82
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormMark[Audi, 6]",
+    "title" : "Проверка в боковой форме параметра:  \"Audi\"",
+    "time" : {
+      "start" : 1437811462247,
+      "stop" : 1437811462281,
+      "duration" : 34
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormModel[A6, 49]",
+    "title" : "Проверка в боковой форме параметра:  \"A6\"",
+    "time" : {
+      "start" : 1437811462283,
+      "stop" : 1437811462318,
+      "duration" : 35
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormYearFrom[1995]",
+    "title" : "Проверка в боковой форме параметра:  \"1995\"",
+    "time" : {
+      "start" : 1437811462320,
+      "stop" : 1437811462353,
+      "duration" : 33
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormYearTo[2014]",
+    "title" : "Проверка в боковой форме параметра:  \"2014\"",
+    "time" : {
+      "start" : 1437811462354,
+      "stop" : 1437811462391,
+      "duration" : 37
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormPriceFrom[5000]",
+    "title" : "Проверка в боковой форме параметра:  \"5000\"",
+    "time" : {
+      "start" : 1437811462392,
+      "stop" : 1437811462430,
+      "duration" : 38
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormPriceTo[19000]",
+    "title" : "Проверка в боковой форме параметра:  \"19000\"",
+    "time" : {
+      "start" : 1437811462432,
+      "stop" : 1437811462474,
+      "duration" : 42
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormState[Киевская, 10]",
+    "title" : "Проверка в боковой форме параметра:  \"Киевская\"",
+    "time" : {
+      "start" : 1437811462476,
+      "stop" : 1437811462508,
+      "duration" : 32
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyLeftSearchFormCity[Киев, 10]",
+    "title" : "Проверка в боковой форме параметра:  \"Киев\"",
+    "time" : {
+      "start" : 1437811462509,
+      "stop" : 1437811462543,
+      "duration" : 34
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifySearchResultMark[Audi]",
+    "title" : "Проверка в поисковой выдаче параметра:  \"Audi\"",
+    "time" : {
+      "start" : 1437811462544,
+      "stop" : 1437811462800,
+      "duration" : 256
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifySearchResultModel[A6]",
+    "title" : "Проверка в поисковой выдаче параметра:  \"A6\"",
+    "time" : {
+      "start" : 1437811462801,
+      "stop" : 1437811463045,
+      "duration" : 244
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifySearchResultYear[1995, 2014]",
+    "title" : "Проверка в поисковой выдаче параметра:  \"1,995\" \"2,014\"",
+    "time" : {
+      "start" : 1437811463048,
+      "stop" : 1437811464273,
+      "duration" : 1225
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifySearchResultState[Поиск объявлений по региону Киев]",
+    "title" : "Проверка в поисковой выдаче параметра:  \"Поиск объявлений по региону Киев\"",
+    "time" : {
+      "start" : 1437811464274,
+      "stop" : 1437811464472,
+      "duration" : 198
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifySearchResultCity[Киев]",
+    "title" : "Проверка в поисковой выдаче параметра:  \"Киев\"",
+    "time" : {
+      "start" : 1437811464473,
+      "stop" : 1437811464916,
+      "duration" : 443
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifySearchResultPrice[5000, 19000]",
+    "title" : "Проверка в поисковой выдаче параметра:  \"5,000\" \"19,000\"",
+    "time" : {
+      "start" : 1437811464917,
+      "stop" : 1437811465201,
+      "duration" : 284
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "addwertSeccondClick",
+    "title" : "Переход на второе объявление",
+    "time" : {
+      "start" : 1437811465203,
+      "stop" : 1437811476055,
+      "duration" : 10852
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "BROKEN",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "makeScreenshot",
+    "source" : "4dae7821-7120-4201-a083-696985d0be1b-attachment.png",
+    "type" : "image/png",
+    "size" : 1414348,
+    "uid" : "f0030a71609f9e16"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search"
+  }, {
+    "name" : "host",
+    "value" : "oleg-PC"
+  }, {
+    "name" : "thread",
+    "value" : "5668@oleg-PC.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Функциональные тесты : Расширенный поиска: доп. характеристики"
+  }, {
+    "name" : "suite-title",
+    "value" : "Функциональные тесты : Расширенный поиска: доп. характеристики"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}
