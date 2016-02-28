@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1456658122960" stop="1456658136199" version="1.4.11" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Suite : Test</name>
+    <title>Suite : Test</title>
+    <test-cases>
+        <test-case start="1456658132012" stop="1456658135625" status="passed">
+            <name>SearchTest</name>
+            <steps>
+                <step start="1456658133884" stop="1456658134336" status="passed">
+                    <name>TypeTheElement[SearchPage, txtSearch, QA]</name>
+                    <title>Type text "QA" in element "txtSearch" on page "SearchPage"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Korol-PC"/>
+                <label name="thread" value="2092@Korol-PC.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1456658132012,
+    "stop" : 1456658135625,
+    "duration" : 3613
+  },
+  "testSuites" : [ {
+    "uid" : "3930cfee402d22d7",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test",
+    "time" : {
+      "start" : 1456658132012,
+      "stop" : 1456658135625,
+      "duration" : 3613
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "15c252b6c520af3",
+      "name" : "SearchTest",
+      "title" : "Search test",
+      "time" : {
+        "start" : 1456658132012,
+        "stop" : 1456658135625,
+        "duration" : 3613
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

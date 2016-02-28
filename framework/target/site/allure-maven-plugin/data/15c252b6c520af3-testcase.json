@@ -1,0 +1,62 @@
+{
+  "uid" : "15c252b6c520af3",
+  "name" : "SearchTest",
+  "title" : "Search test",
+  "time" : {
+    "start" : 1456658132012,
+    "stop" : 1456658135625,
+    "duration" : 3613
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3930cfee402d22d7",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "TypeTheElement[SearchPage, txtSearch, QA]",
+    "title" : "Type text \"QA\" in element \"txtSearch\" on page \"SearchPage\"",
+    "time" : {
+      "start" : 1456658133884,
+      "stop" : 1456658134336,
+      "duration" : 452
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Korol-PC"
+  }, {
+    "name" : "thread",
+    "value" : "2092@Korol-PC.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

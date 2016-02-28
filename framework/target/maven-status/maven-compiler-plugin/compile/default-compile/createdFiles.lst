@@ -1,0 +1,5 @@
+test\framework\base\BaseTest.class
+test\framework\pages\SamplePage.class
+test\framework\steps\SampleStep.class
+test\framework\base\BaseStep.class
+test\framework\base\OnFailure.class
